@@ -1,0 +1,6 @@
+<appwidget-provider
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/widget_layout"
+    android:minWidth="300dp"
+    android:minHeight="60dp"
+    android:widgetCategory="home_screen" />

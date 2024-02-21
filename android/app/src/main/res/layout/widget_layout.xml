@@ -1,0 +1,46 @@
+<LinearLayout
+    android:id="@+id/widget_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="60dp">
+        <ImageButton
+            android:id="@+id/ac_unit_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_baseline_ac_unit_40"
+            android:background="@drawable/corners_selector"
+            android:contentDescription="ac_unit" />
+        <ImageButton
+            android:id="@+id/bed_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_baseline_single_bed_40"
+            android:background="@drawable/corners_selector"
+            android:contentDescription="bed" />
+        <ImageButton
+            android:id="@+id/movie_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_baseline_movie_40"
+            android:background="@drawable/corners_selector"
+            android:contentDescription="movie" />
+        <ImageButton
+            android:id="@+id/work_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_baseline_work_outline_40"
+            android:background="@drawable/corners_selector"
+            android:contentDescription="work" />
+        <ImageButton
+            android:id="@+id/power_off_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_baseline_power_off_40"
+            android:background="@drawable/corners_selector"
+            android:contentDescription="power_off" />
+</LinearLayout>
